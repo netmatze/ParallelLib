@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Intact.ParallelLib.Parallel">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgIAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parallel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.Semaphore">
+    <Position X="0.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAgAAAAAAAAAAAAAAAAAEQAAAIAAAAABAAAA=</HashCode>
+      <FileName>Semaphore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.For">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>For.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ParallelConstruct">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParallelConstruct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.SynchronisationContainer">
+    <Position X="15.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.Do">
+    <Position X="6.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Do.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.Foreach&lt;T&gt;">
+    <Position X="4.5" Y="2.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Foreach.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.Part">
+    <Position X="5.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAACACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Part.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.DoPart">
+    <Position X="1.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAIBAAACAAAAAAAAA=</HashCode>
+      <FileName>DoPart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.DoPart&lt;T&gt;">
+    <Position X="0.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAADAAAAAgAAAAAAA=</HashCode>
+      <FileName>DoPart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.DoPart&lt;T1, T2&gt;">
+    <Position X="2.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAADAAAAAgAAAAAAA=</HashCode>
+      <FileName>DoPart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ForPart">
+    <Position X="5.25" Y="14.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAIAAAAAABAAAAAAAAgAAAAoABAAIAAAAAAAAAA=</HashCode>
+      <FileName>ForPart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ForPart&lt;T&gt;">
+    <Position X="4.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAADAAAAAgAAAAAAA=</HashCode>
+      <FileName>ForPart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ForPart&lt;T1, T2&gt;">
+    <Position X="6.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAADAAAAAgAAAAAAA=</HashCode>
+      <FileName>ForPart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ForeachPart&lt;T&gt;">
+    <Position X="10" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAABIAAAAAAAAQAAAAABAAAAAAAAAQAAA=</HashCode>
+      <FileName>ForeachPart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ForeachPart&lt;T, T1&gt;">
+    <Position X="8.75" Y="17.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAADAAAAAgAAAAAAA=</HashCode>
+      <FileName>ForeachPart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ForeachPart&lt;T, T1, T2&gt;">
+    <Position X="11" Y="17.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAADAAAAAgAAAAAAA=</HashCode>
+      <FileName>ForeachPart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ConstantForSynchronisationContainer">
+    <Position X="8.75" Y="2.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ConstantForSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ConstantForSynchronisationContainer&lt;T&gt;">
+    <Position X="7.75" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ConstantForSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ConstantForSynchronisationContainer&lt;T1, T2&gt;">
+    <Position X="10.75" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ConstantForSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.DoSynchronisationContainer">
+    <Position X="14.75" Y="2.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>DoSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.DoSynchronisationContainer&lt;T&gt;">
+    <Position X="13.75" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>DoSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.DoSynchronisationContainer&lt;T1, T2&gt;">
+    <Position X="16.75" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>DoSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ConstantForeachSynchronisationContainer&lt;T&gt;">
+    <Position X="22" Y="2.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConstantForeachSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ConstantForeachSynchronisationContainer&lt;T, T1&gt;">
+    <Position X="20" Y="5.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConstantForeachSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ConstantForeachSynchronisationContainer&lt;T, T1, T2&gt;">
+    <Position X="23.75" Y="5.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConstantForeachSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ParallelQueue&lt;T&gt;">
+    <Position X="2.75" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAIAAAAAAAABAAEAAEAAAAAAQA=</HashCode>
+      <FileName>ParallelQueue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intact.ParallelLib.UnconstantForSynchronisationContainer">
+    <Position X="9.25" Y="7.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAADAAAAAQ=</HashCode>
+      <FileName>UnconstantForSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ParallelQueueFiller">
+    <Position X="0.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAEA=</HashCode>
+      <FileName>ParallelQueueFiller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.UnconstantForSynchronisationContainer&lt;T, T1&gt;">
+    <Position X="7.5" Y="10.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAADAAAAAQ=</HashCode>
+      <FileName>UnconstantForSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.UnconstantForSynchronisationContainer&lt;T&gt;">
+    <Position X="11.5" Y="10.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAADAAAAAQ=</HashCode>
+      <FileName>UnconstantForSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.UnconstantForeachSynchronisationContainer&lt;T&gt;">
+    <Position X="21.5" Y="7.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAADAAAAAQ=</HashCode>
+      <FileName>UnconstantForeachSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.UnconstantForeachSynchronisationContainer&lt;T, T1&gt;">
+    <Position X="19.25" Y="10.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAADAAAAAQ=</HashCode>
+      <FileName>UnconstantForeachSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.UnconstantForeachSynchronisationContainer&lt;T, T1, T2&gt;">
+    <Position X="23.75" Y="10.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAADAAAAAQ=</HashCode>
+      <FileName>UnconstantForeachSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.Future&lt;T&gt;">
+    <Position X="25.25" Y="14" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAACAAAAQAAAAAEAAAECQAAXEQAAAhAAAAAQA=</HashCode>
+      <FileName>Future.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intact.ParallelLib.Future&lt;T, TResult&gt;">
+    <Position X="22.5" Y="18.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Intact.ParallelLib.Future&lt;T, TResult&gt;.ExecuteWorkObject">
+        <TypeIdentifier>
+          <NewMemberFileName>Future.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAUEAAAAAAAAAAAA=</HashCode>
+      <FileName>Future.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.Future&lt;T1, T2, TResult&gt;">
+    <Position X="25.25" Y="18.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Intact.ParallelLib.Future&lt;T1, T2, TResult&gt;.ExecuteWorkObject">
+        <TypeIdentifier>
+          <NewMemberFileName>Future.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAUEAAAAAAAAAAAA=</HashCode>
+      <FileName>Future.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.Future&lt;T1, T2, T3, TResult&gt;">
+    <Position X="28" Y="18.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Intact.ParallelLib.Future&lt;T1, T2, T3, TResult&gt;.ExecuteWorkObject">
+        <TypeIdentifier>
+          <NewMemberFileName>Future.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAUEAAAAAAAAAAAA=</HashCode>
+      <FileName>Future.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.Task">
+    <Position X="19.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAARAABQAAAAAAAAAAAQAAVEAAAABAAAAAQA=</HashCode>
+      <FileName>Task.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.CodeAnalyser">
+    <Position X="21.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CodeAnalyser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.Invoke">
+    <Position X="5.25" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Invoke.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.InvokePart">
+    <Position X="15" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAA=</HashCode>
+      <FileName>InvokePart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ConstantInvokeSynchronisationContainer">
+    <Position X="29" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>ConstantInvokeSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.UnconstantInvokeSynchronisationContainer">
+    <Position X="30.25" Y="8" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAADAAAAAQ=</HashCode>
+      <FileName>UnconstantInvokeSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.InvokePart&lt;T1, T2&gt;">
+    <Position X="16" Y="17" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAwAAAAEAA=</HashCode>
+      <FileName>InvokePart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.InvokePart&lt;T&gt;">
+    <Position X="14" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAwAAAAEAA=</HashCode>
+      <FileName>InvokePart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ConstantInvokeSynchronisationContainer&lt;T&gt;">
+    <Position X="28" Y="5.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>ConstantInvokeSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ConstantInvokeSynchronisationContainer&lt;T1, T2&gt;">
+    <Position X="31.75" Y="5.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>ConstantInvokeSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.UnconstantInvokeSynchronisationContainer&lt;T&gt;">
+    <Position X="28.25" Y="10.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAADAAAAAQ=</HashCode>
+      <FileName>UnconstantInvokeSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.UnconstantInvokeSynchronisationContainer&lt;T, T1&gt;">
+    <Position X="32.25" Y="10.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAADAAAAAQ=</HashCode>
+      <FileName>UnconstantInvokeSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ThreadLocalState&lt;T&gt;">
+    <Position X="15.25" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>ThreadLocalState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intact.ParallelLib.ConstantForAggregationSynchronisationContainer&lt;T&gt;">
+    <Position X="13.25" Y="7.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ConstantForSynchronisationContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Intact.ParallelLib.ExecutionConstancyEnum">
+    <Position X="2.75" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACAAAAAAAAA=</HashCode>
+      <FileName>ExecutionConstancyEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Intact.ParallelLib.Action" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParallelConstruct.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Intact.ParallelLib.Constraint&lt;T&gt;" Collapsed="true">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParallelConstruct.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Intact.ParallelLib.ConstraintAction" Collapsed="true">
+    <Position X="8.5" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParallelConstruct.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
